@@ -1,6 +1,6 @@
 <h1 align="center">
     <a href="http://plugins.krajee.com" title="Krajee Plugins" target="_blank">
-        <img src="http://kartik-v.github.io/bootstrap-fileinput-samples/samples/krajee-logo-b.png" alt="Krajee Logo"/>
+      
     </a>
     <br>
     bootstrap-fileinput
