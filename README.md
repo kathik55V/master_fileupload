@@ -17,10 +17,6 @@ An enhanced HTML 5 file input for Bootstrap 3.x and 4.x with file preview for va
 
 ![ Explorer Theme](https://user-images.githubusercontent.com/3592619/60393721-51d60d80-9b37-11e9-991c-810c942ac516.png)
 
-## Documentation and Demo
-
-View the [plugin documentation](http://plugins.krajee.com/file-input) and [plugin demos](http://plugins.krajee.com/file-input/demo) at  JQuery plugins. 
-
 ## Pre-requisites  
 
 1. [Bootstrap 3.x or 4.x](http://getbootstrap.com/)
