@@ -21,7 +21,7 @@
     display: none;
 }
 
-.btn-file input[type=file], .file-caption-icon, .file-preview .fileinput-remove, .krajee-default .file-thumb-progress, .file-zoom-dialog .btn-navigate, .file-zoom-dialog .floating-buttons {
+.btn-file input[type=file], .file-caption-icon, .file-preview .fileinput-remove, .fileinput .file-thumb-progress, .file-zoom-dialog .btn-navigate, .file-zoom-dialog .floating-buttons {
     position: absolute;
 }
 
@@ -29,11 +29,11 @@
     line-height: inherit;
 }
 
-.file-input, .file-loading:before, .btn-file, .file-caption, .file-preview, .krajee-default.file-preview-frame, .krajee-default .file-thumbnail-footer, .file-zoom-dialog .modal-dialog {
+.file-input, .file-loading:before, .btn-file, .file-caption, .file-preview, .fileinput.file-preview-frame, .fileinput .file-thumbnail-footer, .file-zoom-dialog .modal-dialog {
     position: relative;
 }
 
-.file-error-message pre, .file-error-message ul, .krajee-default .file-actions, .krajee-default .file-other-error {
+.file-error-message pre, .file-error-message ul, .fileinput .file-actions, .fileinput .file-other-error {
     text-align: left;
 }
 
@@ -41,7 +41,7 @@
     margin: 0;
 }
 
-.krajee-default .file-drag-handle, .krajee-default .file-upload-indicator {
+.fileinput .file-drag-handle, .fileinput .file-upload-indicator {
     float: left;
     margin-top: 10px;
     width: 16px;
@@ -53,11 +53,11 @@
     font-size: 0.7rem;
 }
 
-.krajee-default .file-thumb-progress .progress, .kv-upload-progress .progress {
+.fileinput .file-thumb-progress .progress, .kv-upload-progress .progress {
     background-color: #ccc;
 }
 
-.krajee-default .file-caption-info, .krajee-default .file-size-info {
+.fileinput .file-caption-info, .fileinput .file-size-info {
     display: block;
     white-space: nowrap;
     overflow: hidden;
@@ -190,7 +190,7 @@
     color: #008000;
 }
 
-.krajee-default.file-preview-frame {
+.fileinput.file-preview-frame {
     margin: 8px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -199,37 +199,37 @@
     text-align: center;
 }
 
-.krajee-default.file-preview-frame .kv-file-content {
+.fileinput.file-preview-frame .kv-file-content {
     width: 170px;
     height: 100px;
 }
 
-.krajee-default .file-preview-other-frame {
+.fileinput .file-preview-other-frame {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.krajee-default.file-preview-frame .kv-file-content.kv-pdf-rendered {
+.fileinput.file-preview-frame .kv-file-content.kv-pdf-rendered {
     width: 400px;
 }
 
-.krajee-default.file-preview-frame[data-template="audio"] .kv-file-content {
+.fileinput.file-preview-frame[data-template="audio"] .kv-file-content {
     width: 240px;
     height: 55px;
 }
 
-.krajee-default.file-preview-frame .file-thumbnail-footer {
+.fileinput.file-preview-frame .file-thumbnail-footer {
     height: 70px;
     background-color: #fefbf6;
 }
 
-.krajee-default.file-preview-frame:not(.file-preview-error):hover {
+.fileinput.file-preview-frame:not(.file-preview-error):hover {
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
 }
 
-.krajee-default .file-preview-text {
+.fileinput .file-preview-text {
     display: block;
     color: #428bca;
     border: 1px solid #ddd;
@@ -239,22 +239,22 @@
     resize: none;
 }
 
-.krajee-default .file-preview-html {
+.fileinput .file-preview-html {
     border: 1px solid #ddd;
     padding: 8px;
     overflow: auto;
 }
 
-.krajee-default .file-other-icon {
+.fileinput .file-other-icon {
     font-size: 6em;
     line-height: 1;
 }
 
-.krajee-default .file-footer-buttons {
+.fileinput .file-footer-buttons {
     float: right;
 }
 
-.krajee-default .file-footer-caption {
+.fileinput .file-footer-caption {
     display: block;
     text-align: center;
     padding-top: 4px;
@@ -274,27 +274,27 @@
     margin: -10px 0 5px;
 }
 
-.krajee-default .file-preview-error {
+.fileinput .file-preview-error {
     opacity: 0.65;
     box-shadow: none;
 }
 
-.krajee-default .file-thumb-progress {
+.fileinput .file-thumb-progress {
     top: 37px;
     left: 0;
     right: 0;
 }
 
-.krajee-default.kvsortable-ghost {
+.fileinput.kvsortable-ghost {
     background: #e1edf7;
     border: 2px solid #a1abff;
 }
 
-.krajee-default .file-preview-other:hover {
+.fileinput .file-preview-other:hover {
     opacity: 0.8;
 }
 
-.krajee-default .file-preview-frame:not(.file-preview-error) .file-footer-caption:hover {
+.fileinput .file-preview-frame:not(.file-preview-error) .file-footer-caption:hover {
     color: #000;
 }
 
@@ -500,13 +500,13 @@
 }
 
 @media (max-width: 350px) {
-    .krajee-default.file-preview-frame:not([data-template="audio"]) .kv-file-content {
+    .fileinput.file-preview-frame:not([data-template="audio"]) .kv-file-content {
         width: 160px;
     }
 }
 
 @media (max-width: 420px) {
-    .krajee-default.file-preview-frame .kv-file-content.kv-pdf-rendered {
+    .fileinput.file-preview-frame .kv-file-content.kv-pdf-rendered {
         width: 100%;
     }
 }
