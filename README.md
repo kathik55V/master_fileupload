@@ -24,11 +24,6 @@ An enhanced HTML 5 file input for Bootstrap 3.x and 4.x with file preview for va
 3. Most modern browsers supporting HTML5 (inputs and FileReader API) including CSS3 & JQuery. For Internet Explorer, one must use IE versions 10 and above. IE9 and below will work as a normal file input, and will not support multiple file selection or the HTML 5 FileReader API.
 4. With release 4.0, AJAX uploads are supported. AJAX uploads require that the browser support HTML5 FormData and XHR2 (XMLHttpRequest 2). Most modern browsers support FormData and XHR2. The plugin will automatically degrade to normal form based submission for browsers not supporting AJAX uploads
 
-> NOTE: 
-> - Bootstrap 4.x is supported in addition to Bootstrap 3.x since release v4.4.4. Refer the [CHANGE LOG](https://github.com/kartik-v/bootstrap-fileinput/blob/master/CHANGE.md) for details. 
-> - You can use the [sass branch](https://github.com/kartik-v/bootstrap-fileinput/tree/sass) for installation using `bootstrap-sass` dependency.
-The [master branch](https://github.com/kartik-v/bootstrap-fileinput/tree/master) can be used for installation using plain `bootstrap` dependency.
-
 ## Installation
 
 ### Using Bower
@@ -40,17 +35,6 @@ To install using the `bower` package manager run:
 To install using the `npm` package manager run:
 
     npm install bootstrap-fileinput
-
-### Using Composer
-To install using the `composer` package manager run: 
-
-    $ php composer.phar require kartik-v/bootstrap-fileinput "@dev"
-
-or add:
-
-    "kartik-v/bootstrap-fileinput": "@dev"
-
-to your composer.json file
 
 ### Manual Install
 
